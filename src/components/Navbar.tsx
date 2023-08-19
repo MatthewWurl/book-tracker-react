@@ -18,6 +18,9 @@ export default function Navbar() {
             <li>
               <Link to="/wishlist">Wish List</Link>
             </li>
+            <li>
+              <Link to="/add">Add</Link>
+            </li>
           </ul>
         </div>
       </div>
