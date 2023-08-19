@@ -1,0 +1,53 @@
+:root {
+  --primary: #0f4c75;
+  --background: whitesmoke;
+  --foreground: #121212;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Navbar Styles */
+
+nav {
+  background-color: var(--primary);
+}
+
+nav .nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav .nav-content a {
+  color: var(--background);
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+nav .nav-content a:hover {
+  color: #bbe1fa;
+}
+
+nav .nav-logo a {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+nav .nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+nav .nav-links li {
+  padding-right: 20px;
+}
+
+nav .nav-links li:last-child {
+  padding-right: 0;
+}
