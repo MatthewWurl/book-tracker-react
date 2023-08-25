@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Add from "./components/Add";
-import Home from "./components/Home";
-import Library from "./components/Library";
+import Add from "./pages/Add";
+import Home from "./pages/Home";
+import Library from "./pages/Library";
 import Navbar from "./components/Navbar";
-import WishList from "./components/WishList";
+import WishList from "./pages/WishList";
 import "./App.css";
 
 export default function App() {
