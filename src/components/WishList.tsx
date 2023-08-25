@@ -1,3 +1,3 @@
 export default function WishList() {
-  return "WishList";
+  return <div>WishList</div>;
 }
