@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import WishList from "./pages/WishList";
 import "./App.css";
 
-export default function App() {
+const App = () => {
   return (
     <Router>
       <Navbar />
@@ -18,4 +18,6 @@ export default function App() {
       </Routes>
     </Router>
   );
-}
+};
+
+export default App;

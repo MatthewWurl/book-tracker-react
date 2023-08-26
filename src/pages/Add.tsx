@@ -10,7 +10,7 @@ type VolumeInfo = {
   description?: string;
 };
 
-export default function Add() {
+const Add = () => {
   const [query, setQuery] = useState("");
   const [items, setItems] = useState([]);
 
@@ -56,4 +56,6 @@ export default function Add() {
       )}
     </div>
   );
-}
+};
+
+export default Add;
